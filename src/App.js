@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       
-      <h1 className="pokedex">PODEDEX BY LORENZO</h1>
+      <h1 className="pokedex">POKEDEX BY LORENZO</h1>
       <Router>
         <Routes>
           <Route path="/pokemon/:id" element={<PokemonUnit/>} />
